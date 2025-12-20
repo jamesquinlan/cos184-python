@@ -63,6 +63,9 @@ cos184-python/
 - **Documentation**: Additional resources, guides, and references in the `docs/` directory
 - **Examples**: Sample code and demonstrations in the `src/` directory
 
+### Textbook
+Urban, M. (2021). *Murach ́s Python Programming*. Mike Murach & Associates. ISBN: 978-1943872749
+
 ## 💻 Working with Labs
 
 Each lab includes:
@@ -92,6 +95,3 @@ If you have questions or need help:
 - Check the example code in the `src/` directory
 - Reach out to your instructor during office hours
 
----
-
-Happy coding! 🐍
