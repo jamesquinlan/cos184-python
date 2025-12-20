@@ -95,3 +95,23 @@ If you have questions or need help:
 - Check the example code in the `src/` directory
 - Reach out to your instructor during office hours
 
+
+## Course Schedule (2 Lectures + 1 Lab/Week)
+
+| Week | Lecture 1 (Mon/Tue) | Lecture 2 (Wed/Thu) | Lab (Fri) | Notes |
+|------|---------------------|---------------------|-----------|-------|
+| 1 | Ch 1: Why Python, Python applications | Ch 2: Basic coding skills, data types, variables | Lab 1: first programs | Introduction to Python |
+| 2 | Ch 3: Boolean expressions, relational operators | Ch 3: If statements, selection structure | Lab 2: Decision structures practice | Control statements begin |
+| 3 | Ch 3: While loops, iteration structure | Ch 3: For loops, break/continue statements | Lab 3: Password Strength Checker | First security lab! |
+| 4 | Ch 3: Nested loops, pseudocode planning | Ch 4: Defining functions, parameters, return values | Lab 4: Loop applications, Test Scores program | Complete control structures |
+| 5 | Ch 4: Main() function, function design | Ch 4: Modules, scope, standard modules | Lab 5: Password Generator (using random module) | Functions and modules |
+| 6 | Ch 6: Lists - creating, indexing, modifying | Ch 6: List methods, processing items | Lab 6: List manipulation exercises | Lists begin |
+| 7 | Ch 6: Lists with functions, 2D lists | Ch 6: Sorting, slicing, comprehensions | Lab 7: Caesar Cipher | Advanced list operations |
+| 8 | Ch 7: File I/O basics, text files | Ch 7: CSV files, reading/writing data | Midterm Review | Covers Ch 1-6 |
+| 9 | **MIDTERM EXAM** | Ch 8: Exception handling, try/except | Lab 8: File Integrity Checker | Hashing, file operations |
+| 10 | Ch 8: Multiple exceptions, finally clause | Ch 9: Floating-point numbers, math module | Lab 9: Login System (exception handling) | Robust error handling |
+| 11 | Ch 9: Format specifications, locale module | Ch 9: Decimal module, precision handling | Lab 10: Financial calculations with decimal | Numeric precision |
+| 12 | Ch 10: String methods, searching, slicing | Ch 10: Split/join, regex patterns | Lab 11: Sensitive Data Detector | String processing, pattern matching |
+| 13 | Ch 12: Dictionaries - creating, accessing items | Ch 12: Dictionary methods, iteration | Lab 12: Dictionary practice exercises | Key-value data structures |
+| 14 | Ch 12: Complex dictionary structures | HPC Introduction: Parallel computing concepts | Lab 13: Log File Analyzer | Dictionary applications |
+| 15 | HPC Project: Climate Data Analysis | Project Presentations | Final Exam | Capstone HPC project |
