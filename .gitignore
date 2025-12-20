@@ -1,12 +1,63 @@
-# Byte-compiled / optimized / DLL files
+# =================================================
+# LaTeX core auxiliary files
+# =================================================
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+
+# Bibliography (BibTeX / Biber)
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Beamer-specific
+*.nav
+*.snm
+*.vrb
+
+# Indexing / glossaries
+*.idx
+*.ilg
+*.ind
+*.glg
+*.glo
+*.gls
+*.acn
+*.acr
+*.alg
+
+# TikZ / PGF
+*.tikz
+*.pgf
+*.auxlock
+*.md5
+*.dpth
+
+# Latexmk
+latexmk.out
+
+# Minted
+_minted*
+
+# =================================================
+# Python: bytecode / extensions
+# =================================================
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
 
-# Distribution / packaging
+# =================================================
+# Python: distribution / packaging
+# =================================================
 .Python
 build/
 develop-eggs/
@@ -31,7 +82,9 @@ MANIFEST
 *.manifest
 *.spec
 
-# Unit test / coverage reports
+# =================================================
+# Testing / coverage
+# =================================================
 htmlcov/
 .tox/
 .nox/
@@ -45,53 +98,46 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Translations
-*.mo
-*.pot
+# =================================================
+# Jupyter / IPython
+# =================================================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
 
-# Django stuff:
+# =================================================
+# Documentation
+# =================================================
+docs/_build/
+target/
+site/
+
+# =================================================
+# Framework-specific
+# =================================================
+# Django
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+# Flask
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# PEP 582
-__pypackages__/
-
-# Celery stuff
+# Celery
 celerybeat-schedule
 celerybeat.pid
 
-# SageMath parsed files
+# SageMath
 *.sage.py
 
-# Environments
+# =================================================
+# Virtual environments
+# =================================================
 .env
 .venv
 env/
@@ -100,107 +146,33 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# pyenv / pipenv / PEP 582
+.python-version
+Pipfile.lock
+__pypackages__/
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
+# =================================================
+# Type checking
+# =================================================
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
 .pyre/
 
-# IDEs
+# =================================================
+# IDEs / editors
+# =================================================
 .vscode/
 .idea/
+.spyderproject
+.spyproject
+.ropeproject
 *.swp
 *.swo
 *~
 
-# -------------------------------------------------
-# LaTeX core auxiliary files
-# -------------------------------------------------
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.synctex(busy)
-
-# -------------------------------------------------
-# Bibliography (BibTeX / Biber)
-# -------------------------------------------------
-*.bbl
-*.bcf
-*.blg
-*.run.xml
-
-# -------------------------------------------------
-# Beamer-specific
-# -------------------------------------------------
-*.nav
-*.snm
-*.vrb
-
-# -------------------------------------------------
-# Indexing / glossaries
-# -------------------------------------------------
-*.idx
-*.ilg
-*.ind
-*.glg
-*.glo
-*.gls
-*.acn
-*.acr
-*.alg
-
-# -------------------------------------------------
-# TikZ / PGF / PSTricks
-# -------------------------------------------------
-*.tikz
-*.pgf
-*.auxlock
-*.md5
-*.dpth
-
-# -------------------------------------------------
-# Latexmk
-# -------------------------------------------------
-latexmk.out
-
-# -------------------------------------------------
-# Temporary / backup files
-# -------------------------------------------------
-*~
-*.bak
-*.swp
-*.swo
-*.tmp
-
-# -------------------------------------------------
-# Editor / IDE files
-# -------------------------------------------------
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# -------------------------------------------------
+# =================================================
 # OS files
-# -------------------------------------------------
+# =================================================
 .DS_Store
 Thumbs.db
-
