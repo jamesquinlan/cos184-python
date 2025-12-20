@@ -96,7 +96,7 @@ If you have questions or need help:
 - Reach out to your instructor during office hours
 
 
-## Course Schedule (2 Lectures + 1 Lab/Week)
+## 📆 Course Schedule (2 Lectures + 1 Lab/Week)
 
 | Week | Lecture 1 (Mon/Tue) | Lecture 2 (Wed/Thu) | Lab (Fri) | Notes |
 |------|---------------------|---------------------|-----------|-------|
