@@ -83,7 +83,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍🏫 Instructor
 
-@jamesquinlan James Quinlan
+James Quinlan, Ph.D.  Chair, Department of Computer Science, University of Southern Maine. 
 
 ## 📬 Support
 
