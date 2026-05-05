@@ -215,4 +215,4 @@ Area: 78.54
 
 ---
 
-Good luck! 🐍
+Good luck!
